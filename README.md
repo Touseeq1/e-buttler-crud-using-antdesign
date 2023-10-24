@@ -1,5 +1,6 @@
-# Getting Started with Create React App
+I have created e-buttler crudd app using React js with redux, antDesign, and API on a Local host. to run this project first you need to install node pkg manager ( npm i ). then run local host ( npx json-server --watch reduxjson.json --port 3333 )
 
+# Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
