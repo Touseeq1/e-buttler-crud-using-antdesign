@@ -1,0 +1,35 @@
+{
+    "reduxjson":[
+        {
+            "status": "ali",
+            "building": "building",
+            "id": 1
+        },
+        {
+            "status": "ali",
+            "building": "ali",
+            "id": 2
+        },
+        {
+            "status": "ali",
+            "building": "ali",
+            "id": 3
+        },
+        {
+            "status": "ali",
+            "building": "ali",
+            "id": 4
+        },
+        {
+            "status": "ali",
+            "building": "ali",
+            "id": 5
+        },
+        {
+            "status": "ali",
+            "building": "ali",
+            "id": 6
+        }
+
+    ]
+}

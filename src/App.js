@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import '../src/style/style.css';
+import Newbuilding from './All_Pages/Newbuilding';
+import Addbuilding from './All_Pages/Addbuilding';
+import Editbuilding from './All_Pages/Editbuilding';
+import Table from './All_Pages/Table';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<Newbuilding/>}>
+            <Route exact path="table" index element={<Table/>}/>
+            <Route exact path="addbuilding"  element={<Addbuilding/>}/>
+            <Route exact path="editbuilding/:id" element={<Editbuilding/>}/>
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
-
 export default App;
